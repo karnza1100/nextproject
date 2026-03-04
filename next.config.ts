@@ -10,6 +10,8 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.hugsinsurance.com' },
       { protocol: 'https', hostname: 'www.jorakay.co.th' },
       { protocol: 'https', hostname: 'vanguard.com.sg' },
+
+      { protocol: 'https', hostname: 'avatars.githubusercontent.com' },
       { hostname: 'www.jorakay.co.th' },
       { hostname: 'vanguard.com.sg' },
     ],

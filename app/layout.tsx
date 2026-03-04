@@ -66,7 +66,14 @@ export default function RootLayout({
             >
               CONTACT
             </Link>
+            <Link 
+              href="/user" 
+              className="font-extrabold text-black text-base hover:text-[#997A2E] transition-colors"
+            >
+              USER
+            </Link>
           </nav>
+          
 
           {/* Mobile Hamburger (Icon จำลอง) */}
           <div className="block md:hidden cursor-pointer space-y-1.5">
