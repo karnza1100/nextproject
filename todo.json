@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": "2a0a",
+      "task": "Play ",
+      "time": 23
+    },
+    {
+      "id": "2a9a",
+      "task": "Write web program",
+      "time": 23
+    },
+    {
+      "id": "22f3",
+      "task": "Play Game Guitar",
+      "time": 73
+    },
+    {
+      "id": "2d2f",
+      "task": "123123123",
+      "time": 222
+    }
+  ],
+  "foo": {
+    "name": "Bar",
+    "age": 45
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}

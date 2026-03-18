@@ -32,6 +32,7 @@ export default function RootLayout({
     { name: "FETCH", href: "/fetch" },
     { name: "HW2", href: "/hw2" },
     { name: "FETCH2", href: "/hw2_fetch" },
+    { name: "todo", href: "/todo" },
   ];
 
   return (
