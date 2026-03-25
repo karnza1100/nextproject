@@ -1,0 +1,29 @@
+{
+  "pets": [
+    {
+      "group": "wwwqqw",
+      "gender": "male",
+      "age": 9,
+      "id": "ZMNAEFD"
+    },
+    {
+      "id": "029d",
+      "group": "cat",
+      "gender": "male",
+      "age": 12
+    },
+    {
+      "id": "9560",
+      "group": "catt",
+      "gender": "male",
+      "age": 15
+    },
+    {
+      "id": "9332",
+      "group": "cat",
+      "gender": "male",
+      "age": 13
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

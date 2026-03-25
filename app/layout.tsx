@@ -12,6 +12,7 @@ const roboto = Roboto({
   weight: "400",
 });
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,15 +34,16 @@ export default function RootLayout({
     { name: "HW2", href: "/hw2" },
     { name: "FETCH2", href: "/hw2_fetch" },
     { name: "todo", href: "/todo" },
+    { name: "pet", href: "/pet" },
   ];
 
   return (
     <html lang="en">
       <body className={`${roboto.className} bg-white text-black`}>
-        <header className="w-full bg-[#FDFBF0] border-b border-gray-100 sticky top-0 z-50">
+        {/*<header className="w-full bg-[#FDFBF0] border-b border-gray-100 sticky top-0 z-50">
           <div className="max-w-[1440px] w-[90%] mx-auto h-20 flex justify-between items-center gap-4">
             
-            {/* Logo */}
+            
             <Link href="/" className="flex items-center gap-2 text-2xl font-bold flex-shrink-0">
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/2948/2948025.png"
@@ -53,7 +55,7 @@ export default function RootLayout({
               <span className="text-black">CoC</span>
             </Link>
 
-            {/* Desktop Menu (Scroll แนวนอน) */}
+            
             <nav className="hidden md:flex items-center gap-6 overflow-x-auto no-scrollbar max-w-[500px] py-2 px-2">
               {menuLinks.map((link) => (
                 <Link
@@ -66,7 +68,7 @@ export default function RootLayout({
               ))}
             </nav>
 
-            {/* Hamburger Button (สำหรับมือถือ) */}
+            
             <button 
               onClick={() => setIsOpen(!isOpen)}
               className="block md:hidden cursor-pointer space-y-1.5 flex-shrink-0 z-50"
@@ -78,7 +80,7 @@ export default function RootLayout({
             </button>
           </div>
 
-          {/* Mobile Menu Overlay (เลื่อนลงเมื่อลิงก์เยอะ) */}
+          
           <div 
             className={`fixed inset-0 bg-[#FDFBF0] z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
               isOpen ? "translate-y-0" : "-translate-y-full"
@@ -97,7 +99,7 @@ export default function RootLayout({
               ))}
             </nav>
           </div>
-        </header>
+        </header> */}
 
         <main className="m-8">
           {children}
